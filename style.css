@@ -1,0 +1,105 @@
+/*
+Theme Name: Portal do CEM
+Author: Alberto Bezerra da Equipe Bezerra da Silva
+Author URI: www.equipebezerradasilva.com.br/alberto
+Description: Tema desenvolvido sobre demanda
+Version: 1.1
+Tags: Escola, Educação, Desenvolvimento, Caruaru, Particular
+*/
+
+.tamanho-banner{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.nav-item-dicas{
+	
+    background: purple;
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.agendaeaulasextra{
+	margin-top: 30px;
+}
+
+.caroseldasaulas{
+	margin-bottom: 30px;
+
+}
+
+.footer{
+	background: #FBAB18;
+	margin-top: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+}
+
+.copyright{
+	background: #D88500;
+	color: white;
+	padding-bottom: 20px;
+	padding-top: 20px; 
+}
+.logo-footer{
+	width: 60px;
+	height: 60px;
+}
+
+.desenvolvimento{
+	background: #F1616E;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: white;
+}
+.titulo{
+	font-size: 16px;
+}
+
+.descricao{
+	font-size: 12px;
+	margin-top: 15px;
+	padding-right: 15px;
+}
+.espaco{
+	margin-top: 20px;
+}
+.link{
+	text-decoration: none!important;
+	color: white;
+}
+.link:hover{
+	text-decoration: none!important;
+	color: white;
+}
+.btn-primary-custom {
+  color: #fff;
+  background-color: #24C3F3;
+  border: none!important;
+  padding: 5px;
+  border-radius: 3px;
+  
+}
+
+.btn-primary-custom:hover {
+  color: #fff;
+  background-color: #20ADCE;
+  border-color: #20ADCE;
+}
+
+.btn-primary-custom:active {
+  color: #fff;
+  background-color: #24C3F3;
+  border: none!important;
+}
+
+.espacobtn{
+	margin-top: 20px;
+	text-align: right;
+}
