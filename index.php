@@ -115,9 +115,9 @@
 				  </li>
 				</ul>
 
-				<div class="aligndobtn">
+				<div class="espacobtn">
 
-				<button type="button" class="btn btn-primary btn-primary-custom1">Primary</button>
+				<button type="button" class="btn-primary-custom1">Primary</button>
 
 				</div>
 
@@ -219,7 +219,8 @@
 
 
 	  	</div>
-	  	<button type="button" class="btn btn-primary btn-primary-custom">Primary</button>
+	  	<div class="espacobtn">
+	  	<button type="button" class="btn-primary-custom2">Primary</button></div>
 	</div>
 
 
