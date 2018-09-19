@@ -15,7 +15,7 @@ Tags: Escola, Educação, Desenvolvimento, Caruaru, Particular
 
 .nav-item-dicas{
 	
-    background: purple;
+    background: #24C3F3;
     color: white;
     width: 100%;
     padding-top: 20px;
@@ -24,6 +24,31 @@ Tags: Escola, Educação, Desenvolvimento, Caruaru, Particular
     border-radius: 5px;
     margin-bottom: 30px;
 }
+
+.nav-item-agenda{
+	
+    background: #E74B99;
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.nav-item-galerias{
+	
+    background: #FBAB1A;
+    color: white;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
 .agendaeaulasextra{
 	margin-top: 30px;
 }

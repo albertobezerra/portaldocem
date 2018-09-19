@@ -110,14 +110,14 @@
 		<div class="col-sm">
 
 				<ul class="nav">
-				  <li class="nav-item nav-item-dicas">
+				  <li class="nav-item nav-item-agenda">
 				    Agenda do CEM
 				  </li>
 				</ul>
 
 				<div class="espacobtn">
 
-				<button type="button" class="btn-primary-custom1">Primary</button>
+				<button type="button" class="btn-primary-custom1">Agenda completa</button>
 
 				</div>
 
@@ -181,7 +181,7 @@
 
 
 		<ul class="nav">
-		  <li class="nav-item nav-item-dicas">
+		  <li class="nav-item nav-item-galerias">
 		    Galerias do CEM
 		  </li>
 		</ul>
@@ -220,7 +220,7 @@
 
 	  	</div>
 	  	<div class="espacobtn">
-	  	<button type="button" class="btn-primary-custom2">Primary</button></div>
+	  	<button type="button" class="btn-primary-custom2">+ galerias</button></div>
 	</div>
 
 
