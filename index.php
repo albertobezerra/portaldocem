@@ -117,7 +117,7 @@
 
 				<div class="aligndobtn">
 
-				<button type="button" class="btn btn-primary btn-primary-custom">Primary</button>
+				<button type="button" class="btn btn-primary btn-primary-custom1">Primary</button>
 
 				</div>
 

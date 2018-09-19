@@ -99,6 +99,27 @@ Tags: Escola, Educação, Desenvolvimento, Caruaru, Particular
   border: none!important;
 }
 
+.btn-primary-custom1 {
+  color: #fff;
+  background-color: #24C3F3;
+  border: none!important;
+  padding: 5px;
+  border-radius: 3px;
+  
+}
+
+.btn-primary-custom1:hover {
+  color: #fff;
+  background-color: #20ADCE;
+  border-color: #20ADCE;
+}
+
+.btn-primary-custom1:active {
+  color: #fff;
+  background-color: #24C3F3;
+  border: none!important;
+}
+
 .espacobtn{
 	margin-top: 20px;
 	text-align: right;
