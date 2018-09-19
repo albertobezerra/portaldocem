@@ -52,6 +52,10 @@ Tags: Escola, Educação, Desenvolvimento, Caruaru, Particular
     text-transform: uppercase;
 }
 
+.textodabarra{
+  color: red;
+}
+
 .agendaeaulasextra{
 	margin-top: 30px;
 }
