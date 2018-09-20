@@ -13,7 +13,7 @@ add_action('after_setup_theme','add_suport_theme');
  **************************************/
 add_theme_support('menus');
 register_nav_menus( array(
-  'primary' => __( 'MENU HEADER', 'menu-header' ),
+    'primary' => __( 'Primary Menu', 'THEMENAME' ),
 ) );
 
 
@@ -36,7 +36,7 @@ add_action( 'wp_enqueue_scripts', 'wp_responsivo_scripts' );
 /**************************************
  *  SCRIPTS /MENU BOOTSTRAP
  **************************************/
-require_once('assets/includes/wp_bootstrap_navwalker.php'); 
+require_once('assets/includes/class-wp-bootstrap-navwalker.php'); 
 
 
 /**************************************

@@ -6,7 +6,7 @@
 
 	<title><?php wp_title('-',true,'right'); bloginfo(); ?></title>
 
-	<link rel="shortcut icon" href="<?php bloginfo( 'template_directory' ); ?>/assets/images/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="<?php bloginfo( 'template_directory' ); ?>/assets/images/logo1.png" type="image/x-icon">
 
 	<?php wp_head(); ?>
 
@@ -28,7 +28,7 @@
 
 				<div class="container">
 
-					  <a class="navbar-brand" href="#"><img src="http://getbootstrap.com/docs/4.1/assets/brand/bootstrap-solid.svg" width="35" height="35" class="d-inline-block align-top" alt="logo do CEM">&nbsp&nbspPortal do CEM</a>
+					  <a class="navbar-brand" href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/images/logo1.png" width="35" height="35" class="d-inline-block align-top" alt="logo do CEM">&nbsp&nbspPortal do CEM</a>
 
 					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 
@@ -38,9 +38,20 @@
 
 					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 					    <ul class="navbar-nav ml-auto">
-					      <li class="nav-item">
-					        <a class="nav-link" href="#">Link</a>
-					      </li>
+					      
+					<?php
+					wp_nav_menu( array(
+						'theme_location'    => 'primary',
+						'depth'             => 2,
+						'container'         => 'div',
+						'container_class'   => 'collapse navbar-collapse',
+						'container_id'      => 'bs-example-navbar-collapse-1',
+						'menu_class'        => 'nav navbar-nav',
+						'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+						'walker'            => new WP_Bootstrap_Navwalker(),
+					) );
+					?>
+
 					    </ul>
 					  </div>
 			  	</div>
