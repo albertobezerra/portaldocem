@@ -51,7 +51,37 @@ Tags: Escola, Educação, Desenvolvimento, Caruaru, Particular
     margin-bottom: 30px;
     text-transform: uppercase;
 }
+.navbar-light .navbar-nav .active > .nav-link{
+	color: white;
+}
 
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: #FBAB1A;
+}
+
+.navbar-light .navbar-toggler {
+    background: white;
+}
+
+.col-sm.espacoentre {
+    margin-bottom: 30px;
+}
+
+
+.bg-light-custom{
+	background: #001A3B !important;
+}
+
+.navbar-brand.navbar-brand-custom {
+    color: white;
+}
+.navbar-brand.navbar-brand-custom:hover {
+    color: white;
+}
 .agendaeaulasextra{
 	margin-top: 30px;
 }

@@ -107,7 +107,7 @@
 
 
 
-		<div class="col-sm">
+		<div class="col-sm espacoentre">
 
 				<ul class="nav">
 				  <li class="nav-item nav-item-agenda">

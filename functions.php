@@ -36,7 +36,7 @@ add_action( 'wp_enqueue_scripts', 'wp_responsivo_scripts' );
 /**************************************
  *  SCRIPTS /MENU BOOTSTRAP
  **************************************/
-require_once('assets/includes/class-wp-bootstrap-navwalker.php'); 
+
 
 
 /**************************************
