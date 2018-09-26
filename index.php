@@ -57,32 +57,28 @@
 <div class="cards">
 	
 	<div class="container">
+
 		<div class="card-deck">
+
+			<?php 
+				$args = array('post_type'=>'post', 'category_name'=>'dicas', 'showposts'=> '3');
+				$my_posts = get_posts( $args );
+				if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
+			 ?>
 		
 	   		<div class="card">
 				  <img class="card-img-top" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/01.jpg" alt="First slide">
 				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				  </div>
-	   		</div>
-
-	   		<div class="card">
-				  <img class="card-img-top" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/02.jpg" alt="First slide">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+				    <h5 class="card-title"><?php the_title(); ?></h5>
+				    <p class="card-text"><?php the_excerpt(); ?></p>
 				  </div>
 	   		</div>
 
 
-			<div class="card">
-				  <img class="card-img-top" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/03.jpg" alt="First slide">
-				  <div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				  </div>
-	   		</div>
+	   		<?php
+		    	endforeach;
+		    	endif;
+	     	?>
 
 
 	  	</div>
