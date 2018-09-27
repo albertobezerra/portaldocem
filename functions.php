@@ -8,6 +8,17 @@ function add_suport_theme(){
 }
 add_action('after_setup_theme','add_suport_theme');
 
+
+/**************************************
+ * Delimita o tamanho do resumo (excerpt)
+ **************************************/
+
+function novo_tamanho_do_resumo($length) {
+  return 20;
+}
+add_filter('excerpt_length', 'novo_tamanho_do_resumo');
+
+
 /**************************************
  * Registro Menu Personalizado
  **************************************/

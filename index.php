@@ -61,13 +61,13 @@
 		<div class="card-deck">
 
 			<?php 
-				$args = array('post_type'=>'post', 'category_name'=>'dicas', 'showposts'=> '3');
+				$args = array('post_type'=>'post', 'category_name'=>'dicas', 'showposts'=> '4');
 				$my_posts = get_posts( $args );
 				if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
 			 ?>
-		
+	
 	   		<div class="card">
-				  <img class="card-img-top" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/01.jpg" alt="First slide">
+				  <?php the_post_thumbnail(false, array('class'=>'card-img-top')); ?> 
 				  <div class="card-body">
 				    <h5 class="card-title"><?php the_title(); ?></h5>
 				    <p class="card-text"><?php the_excerpt(); ?></p>
