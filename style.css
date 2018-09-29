@@ -91,6 +91,14 @@ Tags: Escola, Educação, Desenvolvimento, Caruaru, Particular
 
 }
 
+.resize{
+  
+}
+
+.attachment-resize.size-resize.wp-post-image{
+  width: 100%;
+  height: 45%;
+}
 .footer{
 	background: #FBAB18;
 	margin-top: 30px;
