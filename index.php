@@ -83,7 +83,7 @@
 		<div class="card-deck">
 
 			<?php 
-				$args = array('post_type'=>'post', 'category_name'=>'dicas', 'showposts'=> '4');
+				$args = array('post_type'=>'post', 'category_name'=>'dicas', 'showposts'=> '3');
 				$my_posts = get_posts( $args );
 				if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
 			 ?>
@@ -137,7 +137,7 @@
 
 				<div class="espacobtn">
 
-				<button type="button" class="btn-primary-custom1">Agenda completa</button>
+				<a href="agenda"><button type="button" class="btn-primary-custom1">Agenda completa</button></a>
 
 				</div>
 

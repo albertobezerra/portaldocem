@@ -82,6 +82,9 @@ Tags: Escola, Educação, Desenvolvimento, Caruaru, Particular
 .navbar-brand.navbar-brand-custom:hover {
     color: white;
 }
+.navbar-brand.navbar-brand-custom:active {
+    color: white;
+}
 .agendaeaulasextra{
 	margin-top: 30px;
 }
@@ -211,4 +214,9 @@ Tags: Escola, Educação, Desenvolvimento, Caruaru, Particular
 .espacobtn{
 	margin-top: 20px;
 	text-align: right;
+}
+
+
+.galerias{
+  margin-top: 80px;
 }

@@ -28,7 +28,7 @@
 
 				<div class="container">
 
-					  <a class="navbar-brand navbar-brand-custom" href="#"><img src="<?php bloginfo('template_directory'); ?>/assets/images/logo1.png" width="35" height="35" class="d-inline-block align-top" alt="logo do CEM">&nbsp&nbspPortal do CEM</a>
+					  <a class="navbar-brand navbar-brand-custom" href=""><img src="<?php bloginfo('template_directory'); ?>/assets/images/logo1.png" width="35" height="35" class="d-inline-block align-top" alt="logo do CEM">&nbsp&nbspPortal do CEM</a>
 
 					 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 				    	<span class="navbar-toggler-icon"></span>
