@@ -218,5 +218,36 @@ Tags: Escola, Educação, Desenvolvimento, Caruaru, Particular
 
 
 .galerias{
-  margin-top: 80px;
+  margin-top: 100px;
+}
+
+.texto-titulo-da-galeria{
+  margin-bottom: 50px;
+}
+
+.espacodagaleria{
+  margin-bottom: 30px;
+}
+
+.linkdagaleria{
+  color: #001A3B;
+  text-decoration: none!important;
+}
+
+.linkdagaleria:hover{
+  text-decoration: none!important;
+  color: #001A3B;
+  background: white;
+}
+
+.linkdagaleria:active{
+  text-decoration: none!important;
+  color: #001A3B;
+  background: white;
+}
+
+.linkdagaleria:focus{
+  text-decoration: none!important;
+  color: #001A3B;
+  background: white;
 }
