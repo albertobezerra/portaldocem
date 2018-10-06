@@ -163,16 +163,44 @@
 						    <li data-target="#caroseel01" data-slide-to="0" class="active"></li>
 						    <li data-target="#caroseel01" data-slide-to="1"></li>
 						    <li data-target="#caroseel01" data-slide-to="2"></li>
+						    <li data-target="#caroseel01" data-slide-to="3"></li>
+						    <li data-target="#caroseel01" data-slide-to="4"></li>
+						    <li data-target="#caroseel01" data-slide-to="5"></li>
+						    <li data-target="#caroseel01" data-slide-to="6"></li>
+						    <li data-target="#caroseel01" data-slide-to="7"></li>
 						  </ol>
+
 						  	 <div class="carousel-inner ">
 						    <div class="carousel-item active">
-						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/01.jpg" alt="First slide">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-02.jpg" alt="First slide">
 						    </div>
+
 						    <div class="carousel-item">
-						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/02.jpg" alt="Second slide">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-03.jpg" alt="Second slide">
 						    </div>
+
 						    <div class="carousel-item">
-						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/03.jpg" alt="Third slide">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-04.jpg" alt="Third slide">
+						    </div>
+
+						    <div class="carousel-item">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-05.jpg" alt="Third slide">
+						    </div>
+
+						    <div class="carousel-item">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-06.jpg" alt="Third slide">
+						    </div>
+
+						    <div class="carousel-item">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-07.jpg" alt="Third slide">
+						    </div>
+
+					      	<div class="carousel-item">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-08.jpg" alt="Third slide">
+						    </div>
+
+					      	<div class="carousel-item">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-09.jpg" alt="Third slide">
 						    </div>
 						  </div>
 						  <a class="carousel-control-prev" href="#caroseel01" role="button" data-slide="prev">
@@ -221,11 +249,11 @@
 	
 		
 	   		<div class="card">
-				  <?php the_post_thumbnail(false, array('class'=>'card-img-top')); ?>
+				  <a class="linkdagaleria" href="<?php the_permalink(); ?>"><?php the_post_thumbnail(false, array('class'=>'card-img-top')); ?>
 				  <div class="card-body">
 				    <h5 class="card-title"><?php the_title(); ?></h5>
 				    <p class="card-text"><?php the_excerpt(); ?></p>
-				  </div>
+				  </div></a>
 	   		</div>
 
 	   		<?php
