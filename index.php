@@ -89,11 +89,11 @@
 			 ?>
 	
 	   		<div class="card">
-				  <?php the_post_thumbnail(false, array('class'=>'card-img-top')); ?> 
+				  <a class="linkdagaleria" href="dicas"><?php the_post_thumbnail(false, array('class'=>'card-img-top')); ?> 
 				  <div class="card-body">
 				    <h5 class="card-title"><?php the_title(); ?></h5>
 				    <p class="card-text"><?php the_excerpt(); ?></p>
-				  </div>
+				  </div></a>
 	   		</div>
 
 
