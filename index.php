@@ -83,7 +83,7 @@
 		<div class="card-deck">
 
 			<?php 
-				$args = array('post_type'=>'post', 'category_name'=>'dicas', 'showposts'=> '3');
+				$args = array('post_type'=>'post', 'category_name'=>'dicas-home', 'showposts'=> '3');
 				$my_posts = get_posts( $args );
 				if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
 			 ?>
