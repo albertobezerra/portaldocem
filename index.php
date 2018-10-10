@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 
 <div class="slider">
+	<div class="container">
 	
 	<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
@@ -50,6 +51,8 @@
 				    <span class="sr-only">Next</span>
 				  </a>
 		
+			</div>
+
 			</div>
 	
 </div>
