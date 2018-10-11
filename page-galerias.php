@@ -11,7 +11,7 @@
 
 
 					<?php 
-						$args = array('post_type'=>'post', 'category_name'=>'galeria', 'showposts'=> '10');
+						$args = array('post_type'=>'post', 'category_name'=>'galeria', 'showposts'=> '1000');
 						$my_posts = get_posts( $args );
 						if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
 					 ?>
