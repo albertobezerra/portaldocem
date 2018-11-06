@@ -8,13 +8,9 @@
 	<div class="container">
 		<div class="row">
 
-
-
-					<?php 
-						$args = array('post_type'=>'post', 'category_name'=>'galeria', 'showposts'=> '1000');
-						$my_posts = get_posts( $args );
-						if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
-					 ?>
+			<?php $paged = (get_query_var('paged')) ? get_query_var('paged') : 1; ?> 
+			<?php query_posts("category_name=galeria&showposts=3&paged=$paged"); ?> 
+			<?php while(have_posts()) : the_post(); ?>
 
 				<div class="col-md-4 col-lg-4 espacodagaleria">
 				
@@ -29,16 +25,12 @@
 				
 				
 				</div>
-			
-			 <?php
-		    	endforeach;
-		    	endif;
-	     	?>
+			<?php endwhile; ?>
 		  
 		  </div>
 
 
-
+		<div class="container container-custom"><?php echo paginate_links(); ?></div>
 
 
 	</div>
