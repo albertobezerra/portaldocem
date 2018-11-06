@@ -9,7 +9,7 @@
 				  <ol class="carousel-indicators">
 
 				  	<?php 
-						$args = array('post_type'=>'slider', 'showposts'=>5);
+						$args = array('post_type'=>'slider', 'showposts'=>50);
 						$my_slider = get_posts( $args );
 						$count = 0 ; if($my_slider) : foreach($my_slider as $post) : setup_postdata( $post );
 					 ?>
