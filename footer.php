@@ -9,7 +9,9 @@
 			<div class="col-sm espacoentre">
 				<div class="titulo"><b>SOBRE O CEM</b></div>
 					<div class="descricao">
-					Curabitur turpis. Vestibulum fringilla pede sit amet augue. In auctor lobortis lacus. Phasellus volutpat, metus eget egestas mollis, lacus lacus blandit dui, id egestas quam mauris ut lacus. Curabitur blandit mollis lacus.</div>
+						Com disciplina e responsabilidade o Centro Educacional Marlucí – CEM, prima pela formação integral dos alunos. Através de variadas e desafiadoras práticas pedagógicas, buscamos a valorização da participação ativa da família na vida acadêmica dos seus filhos oferecendo a Educação Infantil e o Ensino Fundamental (1º ao 5º ano).
+		     		
+	     			</div>
 				
 			</div>
 
