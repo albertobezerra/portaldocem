@@ -142,7 +142,7 @@
 				if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
 			 	?>
 
-				<?php the_post_thumbnail('resize')?>
+				<?php the_content(); ?>
 
 
 			 	<?php
