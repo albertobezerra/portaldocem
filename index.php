@@ -150,14 +150,6 @@
 		    	endif;
 	     		?>
 
-				<div class="espacobtn">
-
-				<a href="agenda"><button type="button" class="btn-primary-custom1">Agenda completa</button></a>
-
-				</div>
-
-
-
 		</div>
 
 
