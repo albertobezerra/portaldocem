@@ -19,8 +19,8 @@
 				<div class="titulo"><b>FALE COM O CEM</b></div>
 				<div class="descricao">Rua Mércia Maria, 89 - Bairro Universitário - Caruaru - PE<br>
 				Fone: (81) 3722-6727 / 98880-6727 / Whatsapp 99655-1102<br> 
-				Email: centroeducacionalmarluci@hotmail.com<br>
-				<a href="https://www.instagram.com/centroeducacionalmarluci/">Instagram do CEM</a>
+				Email: centroeducacionalmarluci@hotmail.com<br><br>
+				<a href="https://www.instagram.com/centroeducacionalmarluci/" target="_blank"><img src="<?php bloginfo('template_directory'); ?>/assets/images/btn_insta.png" class="btn_insta"></a>
 				</div>
 			</div>
 
