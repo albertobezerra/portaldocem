@@ -167,7 +167,7 @@
 
 				<ul class="nav">
 				  <li class="nav-item nav-item-dicas">
-				    Aulas Extracurrículares
+				    Aulas Extracurriculares - (HORÁRIO DA TARDE)
 				  </li>
 				</ul>
 
@@ -183,6 +183,9 @@
 						    <li data-target="#caroseel01" data-slide-to="5"></li>
 						    <li data-target="#caroseel01" data-slide-to="6"></li>
 						    <li data-target="#caroseel01" data-slide-to="7"></li>
+						    <li data-target="#caroseel01" data-slide-to="8"></li>
+						    <li data-target="#caroseel01" data-slide-to="9"></li>
+						    <li data-target="#caroseel01" data-slide-to="10"></li>
 						  </ol>
 
 						  	 <div class="carousel-inner ">
@@ -217,6 +220,19 @@
 					      	<div class="carousel-item">
 						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-09.jpg" alt="Third slide">
 						    </div>
+
+						    <div class="carousel-item">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-10.jpg" alt="Third slide">
+						    </div>
+
+						    <div class="carousel-item">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-11.jpg" alt="Third slide">
+						    </div>
+
+						    <div class="carousel-item">
+						      <img class="d-block w-100 rounded" src="<?php bloginfo( 'template_directory' ); ?>/assets/images/slide-12.jpg" alt="Third slide">
+						    </div>
+
 						  </div>
 						  <a class="carousel-control-prev" href="#caroseel01" role="button" data-slide="prev">
 						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -245,7 +261,7 @@
 
 		<ul class="nav">
 		  <li class="nav-item nav-item-galerias">
-		    Galerias do CEM
+		    Galerias de Fotos
 		  </li>
 		</ul>
 
@@ -278,9 +294,9 @@
 
 
 	  	</div>
-	  	<div class="espacobtn">
+	  	<!-- <div class="espacobtn">
 	  	<a href="galerias"><button type="button" class="btn-primary-custom2">+ galerias</button></a></div>
-	</div>
+	</div> -->
 
 
 </div>
